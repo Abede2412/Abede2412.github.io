@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav a{
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+ 
+}
+
+nav a:hover{
+  font-weight: bold;
+}
+
+nav li{
+  display: inline;
+  margin-right: 20px;
+  list-style-type: none;
+   
+}
+
+nav{
+  background-color: #1995ad;
+  padding: 5px;
+  position: sticky;
+  top:0;
+  
+}
+
+header{
+  display: inline;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #a1d6e2;
+  text-align: center;
+  color: white;
+
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  
+
+}
+
+.profil{
+  display: flex;
+  margin-top: 40px;
+}
+
+.foto-profil{
+  flex-basis: 40%;
+  
+}
+
+.tentang-saya{
+ 
+  padding: 20px 20px 20px 40px;
+  background-color: #a1d6e2;
+  height: 500px;
+  flex-grow: 1;  
+}
+
+.foto-profil img{
+  width: 400px;
+  height: 500px;
+}
+
+.data-saya{
+  margin-bottom: 40px;
+}
+
+
+
+.tombol-kontak{
+  background-color: rgba(128, 128, 128, 0.9);
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 10px rgba(128, 128, 128, 0.6);
+  cursor: pointer;
+  border-radius: 5px;
+  width:200px;
+}
+
+.tombol-kontak:hover{
+  box-shadow: 0 10px rgba(128, 128, 128, 0.3);
+  background-color: rgba(128, 128, 128, 0.6);
+  font-weight: bold;
+}
+
+.tombol-kontak:active{
+  box-shadow:none;
+  position:relative;
+  top:10px;
+}
+
+.data{
+  margin-top: 40px;
+}
+
+.data p{
+  line-height: 0.5;
+}
+
+.title{
+  font-weight: bold;
+}
+
+aside{
+  background-color: #f1f1f2;
+  padding-top: 10px;  
+}
+
+.sosmed{
+  background-color: white;
+  display: none;
+}
+
+
+.social-media{
+  padding: 5px;
+  display: flex; 
+  background-color: #1995ad;
+  color:white;
+}
+
+.media{
+  display: flex;
+  flex-grow: 1;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.media img{
+  margin-right: 20px;
+}
+
+
+ 
+
+
+.heading {
+  font-size: 28px;
+  text-align: center;
+  background-color: white;
+  padding: 20px 0px;
+  border-top: 5px solid  #1995ad;
+  border-bottom: 5px solid  #1995ad ;
+  
+}
+
+.pendidikan{
+  display: flex;
+  padding: 40px;
+  background-color:  #f1f1f2;
+  
+  
+}
+
+.list-pendidikan{
+  flex: auto;
+  width: 50%;
+  text-align: center; 
+}
+
+.keterangan{
+  padding: 0 20px;
+  width: 70%;
+  margin: 0 auto; 
+}
+
+.logo{
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.logo p{
+  line-height: 0.5;
+  font-weight: bold;
+}
+
+
+
+.logo img{
+  background-color: white;
+  border-radius: 50%;
+  padding: 40px;
+  border: 1px solid  #1995ad;
+}
+
+.pengalaman{
+  display: flex;
+  margin-bottom: 40px;
+  background-color:  #f1f1f2;
+}
+
+.section-title{
+  
+  border-right: 5px solid #1995ad;
+  background-color: white;
+  padding: 20px 20px 0 0;
+ 
+}
+.Tugas{
+  padding: 20px; 
+  text-align: justify;
+  
+    
+}
+
+
+
+.skill{
+  background-color:  #f1f1f2;
+}
+
+
+
+.list-skill{
+  padding-bottom: 20px;
+}
+
+.list-skill section{
+  display: flex;
+  margin: 40px 0;
+
+
+}
+
+.tombol{
+  background-color: #1995ad;
+  padding: 20px;
+  color: white;
+  border: 2px solid white; 
+  
+}
+
+.HTML{
+  flex-basis: 33%;
+}
+
+.MS{
+  flex-basis: 74%;
+}
+
+.Python{
+  flex-basis: 30%;
+}
+
+.javascript{
+  flex-basis: 28%;
+}
+
+
+
+.layar{
+  flex-grow: 1;
+  background-color: #a1d6e2;
+  border: 2px solid white;
+  padding: 20px;
+  font-weight: bold;
+  
+  
+}
+
+footer{
+  background-color: #1995ad;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+@media (max-width: 670px){
+
+  *{
+    box-sizing: border-box;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .profil{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }  
+  .tentang-saya{
+    color:black; 
+    text-align: center;  
+   
+    width:100%;
+    
+  
+  }
+
+  .tombol-kontak{
+    margin: 0 auto;
+  }
+
+  .foto-profil img{
+    width: 100%;
+    height: 100%;
+
+  }
+  .media img{
+    margin-right: 5px;
+  }
+
+  .pendidikan{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+  }
+
+  .list-pendidikan{
+    margin: 0 auto;
+    
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .keterangan{
+    width: 100%;
+    
+  }
+
+  .pengalaman{
+    display: flex;
+    margin-bottom: 40px;
+    background-color:  #f1f1f2;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 40px;
+  }
+  
+  .section-title{
+    border-right: none;
+    padding: 0px;
+    margin : 0 auto;
+    background-color:  white;
+    border: 3px solid  #1995ad;
+    
+  }
+
+   
+  }
+
+  .Tugas p{
+    text-align: center;
+  }
+
+  .Tugas{
+    padding: 20px; 
+    text-align: justify;
+  }
+
+  @media (max-width: 1000px){
+
+    *{
+      box-sizing: border-box;
+    }
+  
+    .container{
+      width: 100%;
+    }
+    
+    .pengalaman{
+      display: flex;
+      margin-bottom: 40px;
+      background-color:  #f1f1f2;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-top: 40px;
+    }
+    
+    .section-title{
+      border-right: none;
+      padding: 0px;
+      margin : 0 auto;
+      background-color:  white;
+      border: 3px solid  #1995ad;
+      
+    }
+  
+     
+  
+  
+    .Tugas p{
+      text-align: center;
+    }
+  
+    .Tugas{
+      padding: 20px; 
+      text-align: justify;
+    }
+  }
+
